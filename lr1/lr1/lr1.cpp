@@ -195,7 +195,7 @@ void showAllRecords(Polyclinic* P) //показывает все записи в
 
 void enterNewRecord(Polyclinic& newRecord) //ввод новой записи в единичную структуру
 {
-	char buffer[48];
+	char buffer[FIO_WITH];
 
 	cout << "==================================" << endl;
 	cout << "Добавление новой записи:" << endl;
